@@ -132,7 +132,7 @@ make
 
    **解决方案**: 在解析前，必须使用 `cv::transpose` 将 `[84, 8400]` 的数据矩阵**转置**为 `[8400, 84]` 的形式。这是处理此类模型输出的**标准操作**。
 
-3. **OpenVINO的 `PrePostProcessor` (PPP) **
+3. **OpenVINO的 `PrePostProcessor` (PPP)**
 
    为了追求更“现代”的 OpenVINO 2.0 写法，尝试使用 `ov::preprocess::PrePostProcessor` (PPP) 自动处理预处理，但遭遇了一系列崩溃和报错。
 
