@@ -39,3 +39,10 @@
 
 # debug information files
 *.dwo
+
+build/
+video/
+model/
+.cache/
+.marscode/
+.vscode/
